@@ -1,0 +1,43 @@
+# Terraform state files (NEVER commit these - they contain secrets and state)
+*.tfstate
+*.tfstate.*
+.terraform.tfstate*
+
+# Terraform cache and modules (local only, re-downloaded on init)
+.terraform/
+
+# Local variable overrides (often contain sensitive values)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which might contain sensitive data
+terraform.tfvars
+terraform.tfvars.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-workspace

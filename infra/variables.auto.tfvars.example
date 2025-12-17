@@ -1,0 +1,8 @@
+# Example values for VPC-based Lambda modules
+lambda_subnet_ids = ["subnet-abc123", "subnet-def456"]
+lambda_security_group_ids = ["sg-0123456789abcdef0"]
+
+optimization_lambda_name = "optimization-lambda"
+initializer_lambda_name  = "initializer-lambda"
+cognitive_lambda_name    = "cognitive-lambda"
+aggregator_lambda_name   = "aggregator-lambda"
